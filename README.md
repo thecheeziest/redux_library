@@ -3,9 +3,9 @@
 ## **사용된 기술 스택**
 - React
 - Redux
-- react-router-dom
+- React Router
 - axios
-- style-component  
+- styled-components
 ### **기본 코드 설명**
     1. 도서 입력 칸에 도서 정보를 입력하면 리스트에 등록됩니다.
     2. 도서 리스트에서 수정 버튼을 누르면 해당 도서가 수정됩니다.
