@@ -4,7 +4,6 @@
 - React
 - Redux
 - React Router
-- axios
 - styled-components
 ### **기본 코드 설명**
     1. 도서 입력 칸에 도서 정보를 입력하면 리스트에 등록됩니다.
