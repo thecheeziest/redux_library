@@ -108,9 +108,9 @@ max-width: 600px;
         margin-top: -5px;
         margin-bottom: 20px;
     }
-    .title {width: 20%;}
     .author {width: 30%;}
-    .bookcode {width: 30%;}
+    .title {width: 30%;}
+    .bookcode {width: 20%;}
     th, td {
         height: 50px;
         text-align: center;

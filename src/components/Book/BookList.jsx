@@ -12,16 +12,16 @@ const BookList = () => {
                     도서 관리 시스템
                 </caption>
                 <colgroup>
-                    <col className="title" />
                     <col className="author" />
+                    <col className="title" />
                     <col className="bookcode" />
                     <col className="del" />
                 </colgroup>
                 <thead>
                     <tr>
-                        <th>장르</th>
                         <th>저자</th>
-                        <th>코드</th>
+                        <th>도서명</th>
+                        <th>책 코드</th>
                         <th>관리</th>
                     </tr>
                 </thead>

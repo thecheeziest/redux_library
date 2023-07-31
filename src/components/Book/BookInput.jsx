@@ -22,16 +22,16 @@ const BookInput = () => {
         <BookInputBox>
             <form className="book-form" onSubmit={onSubmit} >
                 <p>
-                    <label>장르</label>
-                    <input type="text" name='title' placeholder='장르를 입력해 주세요. (ex. 소설)' value={title} onChange={e => dispatch(titleInput(e.target.value))} />
+                    <label>저자</label>
+                    <input type="text" name='title' placeholder='저자를 입력해 주세요. (ex. 어니스트 헤밍웨이)' value={title} onChange={e => dispatch(titleInput(e.target.value))} maxLength='10' />
                 </p>
                 <p>
-                    <label>저자</label>
-                    <input type="text" name='author' placeholder='저자를 입력해 주세요. (ex. 이지은)' value={author} onChange={e => dispatch(authorInput(e.target.value))} />
+                    <label>도서명</label>
+                    <input type="text" name='author' placeholder='도서명을 입력해 주세요. (ex. 노인과 바다)' value={author} onChange={e => dispatch(authorInput(e.target.value))} maxLength='10' />
                 </p>
                 <p>
                     <label>책 코드</label>
-                    <input type="text" name='bookcode' placeholder='책 코드를 숫자로 입력해 주세요. (ex. 00001)' value={bookcode} onChange={e => dispatch(bookcodeInput(e.target.value))} />
+                    <input type="text" name='bookcode' placeholder='책 코드를 숫자로 입력해 주세요. (ex. 00001)' value={bookcode} onChange={e => dispatch(bookcodeInput(e.target.value))} maxLength='5' />
                 </p>
                 <p><button className='btn' type='submit'>
                 {
